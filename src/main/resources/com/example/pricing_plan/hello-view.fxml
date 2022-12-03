@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="855.0" prefWidth="1315.0" styleClass="primary-background" stylesheets="@style.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <VBox alignment="CENTER" prefHeight="200.0" prefWidth="100.0" styleClass="secondary-background" stylesheets="@style.css">
+               <children>
+                  <Label prefHeight="49.0" prefWidth="332.0" text="CHOOSE YOUR BEST PLAN" textFill="WHITE">
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                     <font>
+                        <Font name="Gabriola" size="48.0" />
+                     </font>
+                  </Label>
+                  <Label prefHeight="58.0" prefWidth="524.0" text="No hidden fees, Cancel at any time" textFill="WHITE">
+                     <font>
+                        <Font name="Gabriola" size="48.0" />
+                     </font>
+                  </Label>
+               </children>
+            </VBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" VBox.vgrow="ALWAYS">
+               <children>
+                  <VBox maxHeight="-Infinity" maxWidth="-Infinity" prefHeight="455.0" prefWidth="315.0" spacing="30.0" styleClass="card" stylesheets="@style.css">
+                     <children>
+                        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Label alignment="TOP_CENTER" prefHeight="100.0" prefWidth="29.0" text="\$" textFill="#868686">
+                                 <font>
+                                    <Font name="Constantia" size="36.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="TOP_CENTER" prefHeight="100.0" prefWidth="141.0" text="0.99">
+                                 <font>
+                                    <Font name="Constantia" size="60.0" />
+                                 </font>
+                              </Label>
+                              <Label alignment="BOTTOM_CENTER" prefHeight="100.0" prefWidth="60.0" text="mo" textFill="#b2b2b2">
+                                 <font>
+                                    <Font name="Constantia" size="36.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                           <VBox.margin>
+                              <Insets top="20.0" />
+                           </VBox.margin>
+                        </HBox>
+                        <Separator prefWidth="200.0">
+                           <VBox.margin>
+                              <Insets left="30.0" right="30.0" />
+                           </VBox.margin>
+                        </Separator>
+                        <VBox prefHeight="200.0" prefWidth="100.0">
+                           <children>
+                              <HBox prefHeight="45.0" prefWidth="200.0">
+                                 <children>
+                                    <ImageView fitHeight="20.0" fitWidth="20.0" pickOnBounds="true" preserveRatio="true" />
+                                 </children>
+                              </HBox>
+                           </children>
+                        </VBox>
+                     </children>
+                  </VBox>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>
